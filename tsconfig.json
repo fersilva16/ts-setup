@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ESNext",
+  
+      "baseUrl": ".",
+      "outDir": "dist",
+  
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "moduleResolution": "Node",
+      "removeComments": true,
+      "sourceMap": true,
+      "strict": true
+    }
+  }
+  

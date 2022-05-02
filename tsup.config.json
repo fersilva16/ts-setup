@@ -1,0 +1,12 @@
+{
+    "sourcemap": true,
+    "entryPoints": ["src/index.ts"],
+    "outDir": "dist",
+    "format": ["cjs"],
+    "target": "node16",
+    "bundle": true,
+    "skipNodeModulesBundle": true,
+    "clean": true,
+    "splitting": false
+  }
+  
