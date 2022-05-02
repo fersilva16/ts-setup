@@ -4,6 +4,7 @@
     "type-check": "tsc --project tsconfig.json --pretty --noEmit"
   },
   "devDependencies": {
+    "@jest/types": "^27.5.1",
     "@types/node": "^17.0.15",
     "esbuild": "^0.14.23",
     "esbuild-jest": "^0.5.0",
