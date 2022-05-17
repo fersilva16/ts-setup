@@ -1,5 +1,9 @@
 {
   "scripts": {
+    "build": "tsup",
+    "dev": "yarn build --onSuccess \"yarn start:dev\"",
+    "dev:watch": "yarn dev --watch",
+    "start": "node dist/index.js",
     "test": "jest",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit"
   },
